@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @agent.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @agent.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @agent.email %>
+</p>
+
+<p>
+  <strong>Agent mls:</strong>
+  <%= @agent.agent_mls %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @agent.description %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @agent.image_url %>
+</p>
+
+<p>
+  <strong>Office mls:</strong>
+  <%= @agent.office_mls %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @agent.phone_number %>
+</p>
+
+<p>
+  <strong>Country code:</strong>
+  <%= @agent.country_code %>
+</p>
+
+<%= link_to 'Edit', edit_agent_path(@agent) %> |
+<%= link_to 'Back', agents_path %>
